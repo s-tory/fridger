@@ -23,7 +23,7 @@ A fridge monitoring & reporting service.
     $ cd ~/git/fridger
     ```
 
-2. Edit Settings
+2. Edit settings
     ```
     $ mv settings.py.org settings.py
     $ nano settings.py
@@ -35,7 +35,7 @@ A fridge monitoring & reporting service.
     $ ./exec.sh
     ```
 
-4. Register as Systemd Service
+4. Register as a systemd service
     ```
     $ chmod +x register.sh
     $ ./register.sh
