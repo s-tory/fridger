@@ -1,0 +1,9 @@
+CAMERA_RESOLUTION = (1600, 1200)  # https://picamera.readthedocs.io/en/release-1.13/fov.html#sensor-modes
+
+RING_BUFFER_OF_TIME_STAMPED_IMAGES_MAXLEN = 8
+AVERAGE_BRIGHTNESS_THRESHOLD_FOR_DOOR_OPEN = 20.0
+AVERAGE_BRIGHTNESS_THRESHOLD_FOR_DOOR_CLOSE = 1.0
+PICK_UP_NTH_IMAGE_FROM_LATEST = 4
+
+SLACK_CHAT_POST_MESSAGE_URL = 'https://slack.com/api/chat.postMessage'
+SLACK_FILES_UPLOAD_URL = 'https://slack.com/api/files.upload'

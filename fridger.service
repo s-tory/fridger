@@ -1,0 +1,15 @@
+[Unit]
+Description=A fridge monitoring & reporting service "fridger"
+After=local-fs.target
+ConditionPathExists=/home/pi/git/fridger
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/git/fridger
+ExecStart=/home/pi/git/fridger/exec.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
