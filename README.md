@@ -31,11 +31,13 @@ A fridge monitoring & reporting service.
 
 3. Execute Manually
     ```
+    $ chmod +x exec.sh
     $ ./exec.sh
     ```
 
 4. Register as Systemd Service
     ```
+    $ chmod +x register.sh
     $ ./register.sh
     ```
 # Committer
