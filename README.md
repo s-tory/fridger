@@ -8,12 +8,12 @@ A fridge / refrigerator monitoring & sharing system.
 冷蔵庫の扉にRasPi＋PiCameraを設置し、本スクリプトを実行すると、扉が開いた際、冷蔵庫の中の様子を撮影し、ファイルに保存したり、Slackに投稿してくれる。スーパーで「あれ？　まだニンジンあったっけ？」などと思ったとき、手元のスマートデバイスで、最新の冷蔵庫のスクショを確認できる。
 </span>
 
-# Require
+## Requirements
 - Raspberry Pi >= 2
 - PiCamera >= 1.4
 - Python >= 3.7
 
-# Usage
+## Usage
 1. Install
     ```
     $ cd
@@ -40,5 +40,8 @@ A fridge / refrigerator monitoring & sharing system.
     $ chmod +x register.sh
     $ ./register.sh
     ```
-# Committer
-s-tory
+## License
+[MIT License](./LICENSE)
+
+## Started up by
+[s-tory](https://github.com/s-tory)
