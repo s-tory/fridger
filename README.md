@@ -1,5 +1,5 @@
 # Fridger
-A fridge monitoring & reporting service.
+A fridge / refrigerator monitoring & sharing system.
 
 [<img src="assets/camera.jpg" height="240">](assets/camera.jpg)
 [<img src="assets/sample.jpg" height="240">](assets/sample.jpg)
